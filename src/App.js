@@ -1,12 +1,21 @@
-import './App.css';
+import React from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Footer from ".componnets/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Say hello to the best app ever created</h1>
-      </header>
-    </div>
+    <main>
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
+    </main>
   );
 }
 
