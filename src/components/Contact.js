@@ -35,7 +35,7 @@ function Contact() {
                 </div>
             {/* Button End */}
             </form>
-            </div>
+        </div>
       );
 }
 
