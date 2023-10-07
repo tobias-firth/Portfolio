@@ -4,7 +4,7 @@ function Navbar({scrollToTop}) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
       <div>
-        <nav ref={scrollToTop} id="nav" className=" w-full flex flex-wrap items-center justify-between px-2 py-3 bg-[#025] z-10">
+        <nav ref={scrollToTop} id="nav" className="fixed top-0 w-full flex flex-wrap items-center justify-between bg-gray-900 opacity-75 px-2 py-3 z-10">
           <div className="container px-3 mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
               <a className="text-xl md:text-l font-bold inline-block mr-3 py-2 whitespace-nowrap font-itim text-[#add8e6]" href="/">Tobias Firth</a>
